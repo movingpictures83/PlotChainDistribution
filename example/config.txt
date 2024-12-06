@@ -1,0 +1,2 @@
+Prefix plugins/PlotChainDistribution/example/
+Plugin PlotChainDistribution inputfile DE.rds outputfile ChainDist.pdf
