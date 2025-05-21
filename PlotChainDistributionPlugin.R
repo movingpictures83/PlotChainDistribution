@@ -11,6 +11,7 @@ run <- function() {}
 
 output <- function(outputfile) {
 pdf(outputfile)
-	plot_chain_distribution(de_results)
+write.csv(de_results$AveExpr, paste(outputfile, "csv", sep="."))	
+plot_chain_distribution(de_results)
 
 }
